@@ -14,7 +14,7 @@
 <body class="h-full bg-selago-50">
     <div class="flex">
         <div>
-            <div class="fixed w-32 h-screen left-0">
+            <div class="fixed w-32 h-screen left-0 p-5">
                 <x-sidebar></x-sidebar>
             </div>
             @if (request()->is('/'))
@@ -24,7 +24,7 @@
             @endif
         </div>
         <div class="w-full p-10" style="padding-left: 10.5rem; {{ request()->is('/') ? 'padding-right: 23rem;' : '' }}">
-            <div class="h-24">
+            <div class="h-20">
                 <x-header></x-header>
             </div>
             {{ $slot }}

@@ -5,14 +5,16 @@
                 <input type="text" class="w-96 h-14 rounded-lg p-5 focus:outline-none focus:border-none" placeholder="Search...">
             </div>
             <div class="flex gap-2">
-                <button type="button" class="bg-royal-blue-500 text-white py-3 px-10 rounded-lg font-semibold">Tambah</button>
-                <button type="button" class="bg-cranberry-500 text-white p-4 rounded-lg font-semibold" >Hapus</button>
+                <div class="flex items-center bg-royal-blue-500 text-white py-3 px-10 rounded-lg font-semibold hover:bg-royal-blue-700">
+                    <a href="/patient/add">Tambah</a>
+                </div>
+                <button type="button" class="bg-cranberry-500 text-white p-4 rounded-lg font-semibold hover:bg-cranberry-700" >Hapus</button>
             </div>
         </div>
         <div class="w-full mt-5 bg-white rounded-lg p-5 h-full">
 
             {{-- alert --}}
-            <x-success-alert></x-success-alert>
+            {{-- <x-success-alert></x-success-alert> --}}
 
             {{-- table --}}
             <table class="w-full text-left border-collapse">
