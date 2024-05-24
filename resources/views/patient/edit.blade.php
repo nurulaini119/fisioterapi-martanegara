@@ -1,6 +1,6 @@
 <x-layout>
     <div class="flex flex-col gap-6 w-full bg-white h-full p-10 rounded-xl">
-        <p class="text-xl font-bold">Tambah Data Pasien</p>
+        <p class="text-xl font-bold">Edit Data Pasien</p>
         <div class="flex flex-col gap-2 w-full">
             <label for="name" class="text-gray-500">Nama</label>
             <input type="text" name="name" id="name" class="bg-gray-100  h-14 rounded-xl p-3 focus-visible:border-royal-blue-500" placeholder="Masukan Nama">

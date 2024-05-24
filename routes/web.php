@@ -13,3 +13,7 @@ Route::get('/patient', function () {
 Route::get('/patient/add', function () {
     return view('patient.add');
 });
+
+Route::get('/patient/edit', function () {
+    return view('patient.edit');
+});
