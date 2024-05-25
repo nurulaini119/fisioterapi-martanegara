@@ -17,3 +17,15 @@ Route::get('/patient/add', function () {
 Route::get('/patient/edit', function () {
     return view('patient.edit');
 });
+
+Route::get('/visit', function () {
+    return view('visit.visit');
+});
+
+Route::get('/visit/add', function () {
+    return view('visit.add');
+});
+
+Route::get('/visit/edit', function () {
+    return view('visit.edit');
+});

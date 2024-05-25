@@ -6,7 +6,7 @@
             </div>
             <div class="flex gap-2">
                 <div class="flex items-center bg-royal-blue-500 text-white py-3 px-10 rounded-lg font-semibold hover:bg-royal-blue-700">
-                    <a href="/patient/add">Tambah</a>
+                    <a href="/visit/add">Tambah</a>
                 </div>
                 <button type="button" class="bg-cranberry-500 text-white p-4 rounded-lg font-semibold hover:bg-cranberry-700" >Hapus</button>
             </div>
@@ -24,21 +24,31 @@
                                 <input type="checkbox" id="select-all" class="custom-checkbox form-checkbox h-5 w-5">
                             </th>
                             <th class="p-4 border-b text-sm">No</th>
-                            <th class="p-4 border-b text-sm">Nama</th>
-                            <th class="p-4 border-b text-sm">No. Telepon</th>
-                            <th class="p-4 border-b text-sm">Action</th>
+                            <th class="p-4 border-b text-sm w-40">Nama</th>
+                            <th class="p-4 border-b text-sm w-40">Keluhan</th>
+                            <th class="p-4 border-b text-sm w-40">Penanganan</th>
+                            <th class="p-4 border-b text-sm w-40">Fisioterapis</th>
+                            <th class="p-4 border-b text-sm w-40">Tanggal Kunjungan</th>
+                            <th class="p-4 border-b text-sm w-40">Foto Pendukung</th>
+                            <th class="p-4 border-b text-sm w-40">Surat Kunjungan</th>
+                            <th class="p-4 border-b text-sm w-40">Action</th>
                         </tr>
                     </thead>
-                    {{-- <tbody>
+                    <tbody>
                         <tr class="hover:bg-gray-50">
                             <th class="w-20 px-6 py-3 border-b text-left leading-4 text-royal-blue-500 tracking-wider">
                                 <input type="checkbox" class="custom-checkbox form-checkbox h-5 w-5">
                             </th>
                             <td class="p-4 border-b text-sm">1</td>
-                            <td class="p-4 border-b text-sm">Ariana Grande</td>
-                            <td class="p-4 border-b text-sm">Nyeri Otot</td>
+                            <td class="p-4 border-b text-sm w-40">Ariana Grande</td>
+                            <td class="p-4 border-b text-sm w-40">Nyeri Otot</td>
+                            <td class="p-4 border-b text-sm w-40">Terapi</td>
+                            <td class="p-4 border-b text-sm w-40">Ajis</td>
+                            <td class="p-4 border-b text-sm w-40">28 mei 2023</td>
+                            <td class="p-4 border-b text-sm w-40">tes</td>
+                            <td class="p-4 border-b text-sm w-40">tes</td>
                             <td class="flex p-4 border-b gap-3">
-                                <a href="/patient/edit" class="border border-spring-green-400 p-3 rounded-lg">
+                                <a href="/visit/edit" class="border border-spring-green-400 p-3 rounded-lg">
                                     <i class="fa-solid fa-pen text-spring-green-400"></i>
                                 </a>
                                 <button type="button" class="border border-cranberry-500 p-3 rounded-lg">
@@ -49,14 +59,14 @@
                                 </button>
                             </td>
                         </tr>
-                    </tbody> --}}
+                    </tbody>
                 </table>
 
                 {{-- no data --}}
-                <div class="flex flex-col gap-3 items-center my-14">
+                {{-- <div class="flex flex-col gap-3 items-center my-14">
                     <img src="/assets/no-data.svg" alt="" class="w-40 h-auto">
                     <p>Data belum tersedia</p>
-                </div>
+                </div> --}}
 
                 {{-- no search --}}
                 {{-- <div class="flex flex-col items-center my-14">

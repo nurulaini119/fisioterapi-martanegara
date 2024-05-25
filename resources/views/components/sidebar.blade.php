@@ -7,7 +7,7 @@
         <i class="fa-solid fa-hospital-user text-3xl text-white"></i>
         <p class="text-xs text-white">Pasien</p>
     </a>
-    <a href="">
+    <a href="/visit">
         <i class="fa-solid fa-book-medical text-3xl text-white"></i>
         <p class="text-xs text-white">Kunjungan</p>
     </a>
