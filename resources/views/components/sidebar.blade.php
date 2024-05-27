@@ -11,7 +11,7 @@
         <i class="fa-solid fa-book-medical text-3xl text-white"></i>
         <p class="text-xs text-white">Kunjungan</p>
     </a>
-    <a href="">
+    <a href="/employee">
         <i class="fa-solid fa-user-nurse text-3xl text-white"></i>
         <p class="text-xs text-white">Karyawan</p>
     </a>
